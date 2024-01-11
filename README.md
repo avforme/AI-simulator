@@ -1,8 +1,7 @@
 # AIPlanner, AACalc, and Opal
 
 The sources contained here comprise three asset allocation and
-consumption planning calculators based on mathematical principles,
-plus a SPIA pricing calculator.
+consumption planning calculators based on mathematical principles.
 
 AIPlanner uses deep reinforcement learning. It is computationally
 extremely demanding to train, but fast once trained.
@@ -13,10 +12,6 @@ problem. It is fast, and easy to use.
 Opal is a research calculator that uses stochastic dynamic
 programming. It is complex, computationally demanding, and limited in
 terms of the scenarios it can handle.
-
-The SPIA pricing calculator computes actuarially fair SPIA prices
-using up to date real, nominal, or corporate bond yield curves
-obtained from the U.S. Treasury.
 
 ## AIPlanner
 
@@ -124,39 +119,11 @@ Notable features of Opal:
 
   - An optional deprecated web based front end to the program.
 
-## SPIA pricing calculator
-
-Notable features of the SPIA pricing calculator:
-
-  - Uses a variety of mortality tables.
-
-  - Use of the current U.S. Treasury real and nominal yield curves,
-    and the high quality markets corporate bond curve.
-
-  - An optional web based front end.
-
-## Demo
-
-  - See https://www.aiplanner.com/ for AIPlanner.
-
-  - See https://www.aacalc.com/ for AACalc and the SPIA pricing
-    calculator.
-
-  - Opal no longer has a functioning web based front end that can be
-    used for demos. It is command line only.
 
 ## License
 
   - AIPlanner is not Open Source, but is free for non-commercial use.
     Commercial use licenses are also available.
-
-  - AACalc, Opal, and the SPIA pricing calculator have been released
-    as Open Source. They are licensed under the GNU Affero GPL. Note,
-    the Affero GPL requires that if you use the licensed code as part
-    of a web service then you must release your code.
-
-  - See the file LICENSE in the relevant sub-directories for further
-    details.
 
 ## Implementation
 
